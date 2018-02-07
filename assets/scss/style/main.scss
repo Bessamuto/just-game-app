@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: $body-background-color;
+}
+
+.content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+p, a {
+  font-size: $text-font-size;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: $title-font-size;
+}
+
+h2, h3 {
+  font-size: $title-sm-font-size;
+}
+
+// All styles rules
+@import "link";
+@import "post";
+@import "nav";
+@import "row";
+@import "text";

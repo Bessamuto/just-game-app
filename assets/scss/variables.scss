@@ -1,0 +1,24 @@
+// Colors
+$body-background-color: #e6ecf0;
+$white: white;
+$blue: #3b9cff;
+$red: #ee3e37;
+$yellow: #fff44b;
+$link: $blue;
+$link_bottom: lighten($link, 20);
+$link_hover: $red;
+$link_hover_bottom: lighten($link_hover, 20);
+
+// Shadow for content boxes
+$shadow: 0 0 30px -8px rgba(0,0,0,0.75);
+
+// Margin for main blocks (only bottom used in project)
+$margin: 20px;
+
+// Standard padding for project
+$padding: 20px;
+
+// Fonts
+$title-font-size: 26px;
+$title-sm-font-size: 22px;
+$text-font-size: 18px;
